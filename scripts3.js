@@ -1,0 +1,10 @@
+myVariable1 = 4;
+myVariable2 = 8;
+console.log('I spent coding', myVariable1 * myVariable2, 'hours.');
+myVariable1 = 3;
+myVariable2 = 8;
+console.log('I spent coding', myVariable1 * myVariable2, 'hours.');
+myVariableX = myVariable1;
+myVariable1 = myVariable2;
+myVariable2 = myVariableX;
+console.log('myVariable1 is', myVariable1, 'and myVariable2 is', myVariable2);

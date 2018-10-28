@@ -1,6 +1,6 @@
-<html>
 
-<head>
+<!-- saved from url=(0041)file:///C:/Users/lucie/GreenFox/Blog.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <title>My blog</title>
     <style>
         h1 {
@@ -8,10 +8,6 @@
             font-size: 28;
             border: 2px solid black;
             padding: 20px 80px 20px 80px;
-        }
-
-        h2 {
-            font-size: 20;
         }
 
         .Add-new-post {
@@ -32,7 +28,6 @@
             padding: 10px 80px 10px 80px;
             margin-bottom: 5px;
             text-align: justify;
-
         }
 
         .Posts {
@@ -43,7 +38,6 @@
         button {
             border-radius: 6px;
             padding: 14px 40px;
-
         }
     </style>
 
@@ -59,14 +53,14 @@
     <div class="Title">
         Title
         <p>
-            <textarea name="" id="1" cols="30" rows="3"></textarea>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
         </p>
     </div>
 
     <div class="Content">
         Content
         <p>
-            <textarea name="" id="2" cols="100" rows="3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. 
+            <textarea name="" id="" cols="100" rows="3">                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. 
             </textarea>
         </p>
         <p>
@@ -75,13 +69,30 @@
     </div>
     <div class="Posts">
         Posts
+
+        <p>
+            <textarea name="" id="" cols="100" rows="3"></textarea>
+        </p>
+        <p>
+            <textarea name="" id="" cols="100" rows="3"></textarea>
+        </p>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
-    <script src="Blog.js"></script>
-    <script>
+    <script src="./My blog_files/jquery.min.js.stažený soubor"></script>
+    <script src="./My blog_files/My blog.html"></script>
+    <script src="./My blog_files/firebase.js.stažený soubor"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAyEVfRJDyFY3Luq6eN1km0qWPdoFp3ZSU",
+    authDomain: "greenfoxacademy.firebaseapp.com",
+    databaseURL: "https://greenfoxacademy.firebaseio.com",
+    projectId: "greenfoxacademy",
+    storageBucket: "greenfoxacademy.appspot.com",
+    messagingSenderId: "780221909059"
+  };
+  firebase.initializeApp(config);
+  fb = firebase.database();
+</script>
 
-    </script>
-</body>
 
-</html>
+</body></html>
